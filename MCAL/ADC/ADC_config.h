@@ -3,7 +3,7 @@
  * @file           : ADC_config.h
 * @brief          : Configuration file of ADC.
  * @author         : Khaled Elgohary
- * @date           : 29/10/2024
+ * @date           : 30/10/2024
  * @board          : ATMEGA32
  ******************************************************************************
 **/

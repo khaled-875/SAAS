@@ -1,0 +1,15 @@
+/*
+ * Math.c
+ *
+ */
+
+
+#include "stdTypes.h"
+
+s16 Math_Mapping (s16 y1,s16 y2,s16 x1,s16 x2,s16 x)
+{
+	s16 y;
+	y = ( ((s32)(y2-y1)*(x-x1))/(x2-x1) ) + y1;
+
+	return y;
+}
